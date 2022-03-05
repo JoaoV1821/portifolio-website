@@ -1,0 +1,23 @@
+- header "Cabecalho"
+    -nav
+        h1
+        Home, Sobre,  Projetos, Contato
+    - nav
+- header
+
+- main
+    - container
+        - section "Home"
+            - section
+                h1, p, github, gmail, likedin
+                star me on github
+            - section
+
+            - section
+                img
+            - section
+
+        - section "Sobre"
+                
+
+        
