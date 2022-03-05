@@ -18,6 +18,13 @@
             - section
 
         - section "Sobre"
+            h2
+            - section 
+                img
+            - section
+                p
+            - section
+
                 
 
         
