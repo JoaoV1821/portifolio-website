@@ -2,19 +2,20 @@ body {
     margin: 0%;
     padding: 0%;
     background-color: #e6f6ff;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .Cabecalho {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-indent: 60px;
     width: 100%;
-    height: 70px;
-}
-
-#titulo-link {
-    margin-left: 70px;
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
 }
 
 .links-nav {
@@ -23,40 +24,95 @@ body {
     flex-direction: row;
     align-items: center;
     width: 60%;
+    text-decoration: none;
 }
+
 
 .Container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start ;
-    width: 100%;
+    align-items: flex-start;
+    width: 95%;
     height: 100%;
     margin-left: 20px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .home {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .info-home {
     display: flex;
-    width: 30%;
+    width: 40%;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 80px;
+    font-size: 25px;
 }
 
+
 .img-home {
+    margin-top: 60px;
+}
+
+.sobre {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-sobre {
     display: flex;
     width: 50%;
+    justify-content: space-around;
     flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+#info-home-h1{
+    font-size: 30px;
+
+}
+
+.h1-sobre {
+    font-size: 40px;
+    text-indent: 500px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.formacao {
+    display: flex;
+    flex-direction: row;
+    width:  100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.info-formacao {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+#formacao-h2 {
+    text-indent: 40px;
 }
 
