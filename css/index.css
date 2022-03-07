@@ -5,13 +5,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
+li {
+    margin-bottom: 5%;
+}
 .Cabecalho {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    text-indent: 60px;
+    text-indent: 80px;
     width: 100%;
     height: 60px;
     position: fixed;
@@ -27,6 +29,34 @@ body {
     text-decoration: none;
 }
 
+.links-nav :hover {
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.links-nav :link,
+.links-nav :visited,
+.links-nav :hover,
+.links-nav :active {
+    color: black;
+    text-decoration: none;
+}
+
+
+.link-titulo :hover {
+    font-size: 40px;
+    transition: all 0.5s;
+    text-decoration: none;
+    
+}
+
+.link-titulo :link,
+.link-titulo :visited,
+.link-titulo :hover,
+.link-titulo :active {
+    color: black;
+    text-decoration: none;
+}
 
 .Container {
     display: flex;
@@ -54,13 +84,22 @@ body {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.icons-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 0%;
 }
 
 
 .img-home {
     margin-top: 60px;
 }
+
 
 .sobre {
     display: flex;
@@ -74,32 +113,40 @@ body {
 .info-sobre {
     display: flex;
     width: 50%;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#info-home-h1{
-    font-size: 30px;
+#info-home-h1 {
+    font-size: 35px;
+    margin-bottom: 0%;
 
 }
 
 .h1-sobre {
     font-size: 40px;
     text-indent: 500px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 20px;
+
 }
+
+#h2-info-sobre {
+    margin-left: 5%;
+}
+
 
 .formacao {
     display: flex;
     flex-direction: row;
-    width:  100%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .info-formacao {
@@ -109,10 +156,20 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 2%;
 }
 
 #formacao-h2 {
     text-indent: 40px;
 }
 
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 60%;
+
+}
